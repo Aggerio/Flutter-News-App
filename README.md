@@ -24,8 +24,8 @@ Potential Upgrades / Future Work:
 
 screenshots: 
 ![home_page](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/homepag.png)
-![favorites_page](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/screenshots/favorites.png)
-![side_drawer](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/screenshots/side_drawer.png)
+![favorites_page](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/favorite.png)
+![side_drawer](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/side_drawer.png)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
