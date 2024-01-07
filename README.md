@@ -23,7 +23,8 @@ Potential Upgrades / Future Work:
 3) Complete the auth, settings and about page 
 
 screenshots: 
-![home_page](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/homepag.png)
+
+![home_page](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/homepage.png)
 ![favorites_page](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/favorites.png)
 ![side_drawer](https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/side_drawer.png)
 
