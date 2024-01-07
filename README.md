@@ -4,12 +4,28 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project was made using the api from [saurav tech](https://documenter.getpostman.com/view/3479169/Szf7zncp?version=latest)
 
-A few resources to get you started if this is your first Flutter project:
+To run this project: 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Get dependecies:
+```bash
+flutter pub get
+```
+Running the project: 
+```bash
+flutter run -d <android-device-name>
+```
+
+Potential Upgrades / Future Work:
+1) Move to provider or redux for state management instead of using bare state
+2) Add slide to remove post from favorites in the favorites section 
+3) Complete the auth, settings and about page 
+
+screenshots: 
+![home_page][https://www.github.com/Aggerio/Flutter-News-App/screenshots/home_screen.png]
+![favorites_page][https://www.github.com/Aggerio/Flutter-News-App/screenshots/favorites.png]
+![side_drawer][https://www.github.com/Aggerio/Flutter-News-App/screenshots/side_drawer.png]
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
