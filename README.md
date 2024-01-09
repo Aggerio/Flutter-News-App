@@ -1,6 +1,6 @@
-# news_app_trial
+# news_app
 
-A new Flutter project.
+A new Flutter news app.
 
 ## Getting Started
 
@@ -23,7 +23,6 @@ Potential Upgrades / Future Work:
 3) Complete the auth, settings and about page 
 
 screenshots: 
-
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/Aggerio/Flutter-News-App/Master/screenshots/homepage.png" width="33%" />

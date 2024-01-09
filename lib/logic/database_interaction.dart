@@ -23,7 +23,7 @@ Future<void> insertArticle(NewsModel nm) async {
   );
 }
 
-Future<List<NewsModel>> newsModels() async {
+Future<List<NewsModel>> getFavoriteNewsModels() async {
   final database = openDatabase(
     join(await getDatabasesPath(), 'news_app_database.db'),
     onCreate: (db, version) {

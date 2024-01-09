@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       appBar: AppBar(
-        title: const Text('All Newzzz'),
+        title: const Text('Newzzz App'),
         actions: [
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),

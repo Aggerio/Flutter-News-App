@@ -48,7 +48,15 @@ class MyNewsDisplay extends State<NewsDisplay> {
         );
       },
       onHorizontalDragEnd: (details) {
-        print("deleted from favorites");
+        void showSnackBar(BuildContext context) {
+          const snackBar = SnackBar(
+            content: Text('This would be removed from favorites on refresh'),
+          );
+          ScaffoldMessenger.of(context).showSnackBar(snackBar);
+        }
+
+        showSnackBar(context);
+
         removeArticle(info);
       },
       child: ConstrainedBox(
