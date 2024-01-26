@@ -26,14 +26,14 @@ class MyNewsDisplay extends State<NewsDisplay> {
 
         final settings = InAppBrowserClassSettings(
           browserSettings: InAppBrowserSettings(
-              hideUrlBar: false,
+              hideUrlBar: true,
               toolbarTopBackgroundColor: Colors.white,
               presentationStyle: ModalPresentationStyle.POPOVER),
         );
         browser.addMenuItem(
           InAppBrowserMenuItem(
             id: 0,
-            title: 'Menu Item 0',
+            title: 'vtop.vit.ac.in',
             iconColor: Colors.black,
             order: 0,
             onClick: () {
@@ -76,12 +76,14 @@ class MyNewsDisplay extends State<NewsDisplay> {
                   left: 8.0,
                   top: 10.0,
                 ),
-                child: Text(info.title.split(' - ')[0],
-                    style: const TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20.0,
-                      overflow: TextOverflow.visible,
-                    )),
+                child: Text(
+                  info.title.split(' - ')[0],
+                  style: const TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20.0,
+                    overflow: TextOverflow.visible,
+                  ),
+                ),
               ),
               //Padding(
               //  padding: const EdgeInsets.only(
